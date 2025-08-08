@@ -1,4 +1,5 @@
 # Loan_Full_stack_project_MERN_stack
+
 💼 Loan Application System
 A full-stack MERN application that allows users to apply for loans, upload documents, view loan status, and track repayments through a dynamic calendar.
 
@@ -30,35 +31,35 @@ Edit
 Loan-Application-System/
 │
 ├── backend/
-│   ├── config/
-│   ├── controllers/
-│   ├── middlewares/
-│   ├── models/
-│   ├── routes/
-│   ├── uploads/
-│   ├── index.js
-│   └── .env
+│ ├── config/
+│ ├── controllers/
+│ ├── middlewares/
+│ ├── models/
+│ ├── routes/
+│ ├── uploads/
+│ ├── index.js
+│ └── .env
 │
 ├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── features/
-│   │   ├── services/
-│   │   ├── utils/
-│   │   ├── App.jsx
-│   │   └── main.jsx
-│   ├── .env
-│   ├── vite.config.js
-│   └── package.json
+│ ├── public/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── features/
+│ │ ├── services/
+│ │ ├── utils/
+│ │ ├── App.jsx
+│ │ └── main.jsx
+│ ├── .env
+│ ├── vite.config.js
+│ └── package.json
 ⚙️ Tech Stack
-Layer	Technology
-Frontend	React, Vite
-Backend	Node.js, Express.js
-DB	MongoDB (Atlas)
-Auth	JWT
-Upload	Multer
-Hosting	Netlify, Render
+Layer Technology
+Frontend React, Vite
+Backend Node.js, Express.js
+DB MongoDB (Atlas)
+Auth JWT
+Upload Multer
+Hosting Netlify, Render
 
 🚀 Local Setup Guide
 ✅ Prerequisites
@@ -199,8 +200,8 @@ Edit
 const cors = require("cors");
 
 app.use(cors({
-  origin: process.env.FRONTEND_URL,
-  credentials: true,
+origin: process.env.FRONTEND_URL,
+credentials: true,
 }));
 🤝 Contributors
 Hutesh — Developer, Designer, Architect
@@ -209,3 +210,4 @@ Contributions welcome via pull request!
 
 🛡️ License
 This project is licensed under the MIT License.
+Deploy link:https://loanhutesh.netlify.app/
